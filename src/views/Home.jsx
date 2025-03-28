@@ -59,7 +59,6 @@ export default function Home() {
                             cada
                             uno
                             de nuestros pacientes.</p>
-                        <button className="primary__btn btn btn-primary" type="button">Conoce más<i className="button__icon bi bi-chevron-right"></i></button>
                     </div>
                 </div>
             </section>
