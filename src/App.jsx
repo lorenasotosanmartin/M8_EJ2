@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ProtectedRoute from './routes/ProtectedRoutes';
-import { AuthProvider } from './Context/AuthContext';
+import { AuthProvider } from './context/AuthContext';
 import Home from './views/Home';
-import Login from './views/login';
+import Login from './views/Login';
 import Contact from './views/Contact';
 import Services from './views/Services'
 import RegisterAppointment from './views/RegisterAppointment'
