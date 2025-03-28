@@ -1,0 +1,17 @@
+{
+    "users": [
+        {
+            "id": 1,            
+            "user": "administrador",
+            "password": "admin123!",
+            "rol": "administrador"
+        },
+        {
+            "id": 2,  
+            "user": "felipeZapata",
+            "name": "Felipe Zapata",
+            "password": "felipeZapata123!",
+            "rol": "doctor"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "appointments": [
+        {
+            "id": 1236,  
+            "paciente": "Javiera Guzman",
+            "doctor": "Ana Fuentes",
+            "username_doctor": "anaFuentes",
+            "fecha": "25/11/2024",
+            "hora": "10:30"
+        },
+        {
+            "id": 1235,  
+            "paciente": "Claudia Gutierrez",
+            "doctor": "Ana Fuentes",
+            "username_doctor": "anaFuentes",
+            "fecha": "26/11/2024",
+            "hora": "15:30"
+        },
+        {
+            "id": 1234,  
+            "paciente": "Claudia Gutierrez",
+            "doctor": "Felipe Zapata",
+            "username_doctor": "felipeZapata",
+            "fecha": "06/12/2024",
+            "hora": "12:15"
+        },
+        {
+            "id": 1233,  
+            "paciente": "Gazpar Jimenez",
+            "doctor": "Felipe Zapata",
+            "username_doctor": "felipeZapata",
+            "fecha": "03/12/2024",
+            "hora": "10:30"
+        },
+        {
+            "id": 1232,  
+            "paciente": "Claudia Garrido",
+            "doctor": "Felipe Zapata",
+            "username_doctor": "felipeZapata",
+            "fecha": "01/12/2024",
+            "hora": "15:45"
+        },
+        {
+            "id": 1232,  
+            "paciente": "Claudia Garrido",
+            "doctor": "Felipe Zapata",
+            "username_doctor": "felipeZapata",
+            "fecha": "01/12/2024",
+            "hora": "15:30"
+        }
+    ]
+}

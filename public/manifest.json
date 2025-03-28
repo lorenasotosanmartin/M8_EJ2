@@ -1,0 +1,21 @@
+{
+    "name": "PWA Clinica Chillan",
+    "short_name": "Clinica",
+    "description": "Clinica Chiilan - Aplicación PWA con React y Vite",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/icons/icono.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icono512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

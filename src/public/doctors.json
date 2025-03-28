@@ -1,0 +1,36 @@
+{
+    "doctors": [
+        {
+            "id": 1,            
+            "imagen": "src/assets/img/dr_zapata.jpg",
+            "nombre": "Felipe Zapata",
+            "especialidad": "Medicina general",
+            "descripcion": "Con años de experiencia, nuestro doctor Felipe Zapata se especializa en la medicina general y en el tratamiento de enfermedades comunes",
+            "experiencia": 10
+        },
+        {
+            "id": 2,  
+            "imagen": "src/assets/img/dr_zambrano.jpg",
+            "nombre": "Carlos Zambrano",
+            "especialidad": "Cardiología",
+            "descripcion": "Nuestro especialista en cardiología, Carlos Zambrano es un profesional reconocido que ha realizado múltiples investigaciones en su area",
+            "experiencia": 5
+        },
+        {
+            "id": 3,  
+            "imagen": "src/assets/img/dr_guzman.jpg",
+            "nombre": "Natalia Guzman",
+            "especialidad": "Ginecología",
+            "descripcion": "Nuestra Medico especialista en ginecologia Natalia Guzman, cuenta con una amplia trayectoria y se ha especilizado en medicina reproductiva",
+            "experiencia": 10
+        },
+        {
+            "id": 4,  
+            "imagen": "src/assets/img/dr_fuentes.jpg",
+            "nombre": "Ana Fuentes",
+            "especialidad": "Medicina general",
+            "descripcion": "Nuestra doctora Soledad fuentes, es parte del área de medicina general y cuenta con años de experiencia en atención publica primaria",
+            "experiencia": 15
+        }
+    ]
+}

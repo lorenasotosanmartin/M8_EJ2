@@ -1,0 +1,28 @@
+{
+    "servicies": [    
+    {
+        "id": 1,  
+        "icono": "bi-clipboard-pulse",
+        "servicio": "Consultas",
+        "descripcion": "Contamos con una amplia gama de profesionales en diversas especialidades dispuestos a atender todas sus consultas"
+    },
+    {
+        "id": 2,  
+        "icono": "bi bi-hospital",
+        "servicio": "Urgencias",
+        "descripcion": "Contamos con servicio de urgencia las 24 horas del día y de lunes a domingo dispuestos a ayudarte ante cualquier necesidad"
+    },
+    {
+        "id": 3,  
+        "icono": "bi bi-lungs",
+        "servicio": "Especialidades",
+        "descripcion": "Contamos con múltiples especialidades y profesionales de excelencia, que lo atenderan de acuerdo a la área que usted necesita"
+    },
+    {
+        "id": 4,  
+        "icono": "bi bi-prescription",
+        "servicio": "Radiologia",
+        "descripcion": "Contamos con una seccion de radiologia, con los equipos mas avanzados de mercado y profesionales de alta calidad que los guiaran en el proceso"
+    }
+]
+}
