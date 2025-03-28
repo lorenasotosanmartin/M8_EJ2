@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 import Logo from "../assets/img/logo.png";
 import { useNavigate } from "react-router-dom";
-import {useAuth}  from "../Context/AuthContext";
+import {useAuth}  from "../context/AuthContext";
 import bcrypt from 'bcryptjs'
 const salt = bcrypt.genSaltSync(10)
 
@@ -83,11 +83,13 @@ for (let i=0; i < users.length; i++){
       {/* Form */}
       <Form className="shadow p-4 bg-white rounded" onSubmit={handleSubmit}>
         {/* Header */}
+        <a href="/home">
         <img
           className="mx-auto d-block mb-2"
           src={Logo}
           alt="logo"
         />
+        </a>
         {/* ALert */}
         {show ? (
           <Alert

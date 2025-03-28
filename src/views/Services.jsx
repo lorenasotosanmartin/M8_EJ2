@@ -40,6 +40,33 @@ export default function Services() {
         loadDoctors();
     }, []);
 
+    const [doctors2, setDoctors2] = useState([]);
+
+    function doctorsComplete() {
+        const loadDoctors2 = async () => {
+            await axios.get("/src/public/doctorsComplete.json")
+                .then(function (response) {
+                    setDoctors2(response.data.doctors2);
+                })
+                .catch(function (error) {
+                    console.log(error.message);
+                    const MySwal = withReactContent(Swal);
+                    MySwal.fire({
+                        title: `Error al consumir API`,
+                        showCancelButton: true,
+                        cancelButtonText: "Cancelar",   
+                        confirmButtonText: "Intentarlo nuevamente",
+                      }).then(async (result) => {
+                          if (result.isConfirmed) {
+                            loadDoctors2();
+                          }
+                      });
+                  
+                });
+        }
+        loadDoctors2();
+    }
+
     if (isLoading) {
         return <h1>loading..</h1>
     }
@@ -66,6 +93,18 @@ export default function Services() {
                     <h2 className="mb-5">Conoce a nuestro equipo de profesionales</h2>
                     <div className="row">
                         {doctors.map((doctor, index) => (
+                            <div className='col-md-6 col-lg-3' key={index} >
+                                <Profiler id="DoctorCard" onRender={onRenderCallback}>
+                                    <DoctorCard key={index} doctor={doctor} />
+                                </Profiler>
+                            </div>
+                        ))}
+                    </div>
+                    <div className='container p-4 d-flex justify-content-end'>
+                        <Button onClick={doctorsComplete} variant="primary">Cargar lista completa <i className='bi bi-plus'></i></Button>
+                    </div>
+                    <div className="row">
+                        {doctors2.map((doctor, index) => (
                             <div className='col-md-6 col-lg-3' key={index} >
                                 <Profiler id="DoctorCard" onRender={onRenderCallback}>
                                     <DoctorCard key={index} doctor={doctor} />
